@@ -37,9 +37,6 @@ node_modules
 # Runtime configuration for swagger app
 config/runtime.yaml
 
-# dotenv environment variables file
-.env
-
 # IDE files
 .idea
 download/12345.png
