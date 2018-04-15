@@ -4,7 +4,7 @@ const constant = require('../config/constant');
 const _ = require('lodash');
 
 mongoose.Promise = global.Promise;
-mongoose.connect(`mongodb://${constant.HOST}/${constant.DBNAME}`);
+mongoose.connect(`mongodb://m2m-bot:m2m-bot@ds261828.mlab.com:61828/heroku_2g9kgcmm`);
 const db = mongoose.connection;
 const customer = require('./customer.js');
 
