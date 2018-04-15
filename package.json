@@ -1,0 +1,49 @@
+{
+  "name": "sbot101",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=7.5"
+  },
+  "description": "Chatbot is human–computer interaction technologies based on NLU (Natural Language Understanding) Conversations.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha --timeout 15000 test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://DigitalBusiness@bitbucket.org/sbot101/generali-life.git"
+  },
+  "keywords": [
+    "Chatbot"
+  ],
+  "author": "sbot101",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/sbot101/generali-life#readme",
+  "dependencies": {
+    "async": "^2.6.0",
+    "body-parser": "1.17.2",
+    "cron": "^1.3.0",
+    "dotenv": "^4.0.0",
+    "express": "4.15.4",
+    "lodash": "^4.17.5",
+    "log4js": "^2.3.3",
+    "mongoose": "^4.10.8",
+    "redis": "^2.8.0",
+    "redis-server": "^1.1.0",
+    "request": "2.81.0",
+    "require-reload": "^0.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "chai": "4.1.1",
+    "chai-http": "3.0.0",
+    "mocha": "3.5.0"
+  }
+}
